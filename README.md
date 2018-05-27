@@ -8,7 +8,6 @@ This project was created using the idea outlined at: http://maven.apache.org/plu
 
 ## Usage and setup (Local machine)
 
-1. Install and configue Maven in local machine.
-1. Configure to extract cloud-heartin-build-tools resources to a folder. Currently done by the parent project pom (cloud-heartin-parent-java). So no need to do anything if you are using that parent project.
-1. Clone  cloud-heartin-build-tools into local machine.
-1. Run 'mvn clean install'
+1. Clone simple-starter-build-tools: <br>
+git clone https://github.com/heartin/simple-starter-build-tools.git
+1. Run './mvnw clean install' or 'mvn clean install'
