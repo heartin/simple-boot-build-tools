@@ -72,6 +72,7 @@ See http://checkstyle.sourceforge.net/checks.html for description of each check.
         <!-- See http://checkstyle.sourceforge.net/config_javadoc.html#JavadocMethod -->
         <module name="JavadocMethod">
             <property name="scope" value="public"/>
+            <property name="tokens" value="METHOD_DEF,ANNOTATION_FIELD_DEF"/>
         </module>
         <module name="JavadocType"/>
         <!-- Changed to not need Javadoc comments for private fields (heartin.cloud) -->
