@@ -3,12 +3,46 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>tech.heartin.projects.tools</groupId>
+	<groupId>tech.heartin.starters</groupId>
 	<artifactId>simple-starter-build-tools</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>Simple Build Tools Project</name>
-	<description>Project to store build artifacts</description>
+	<description>Project to store build artifacts for starter projects</description>
+	<url>https://github.com/heartin/simple-starter-build-tools</url>
+
+	<organization>
+		<name>heartin.tech</name>
+		<url>https://heartin.tech</url>
+	</organization>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/heartin/simple-starter-build-tools/issues</url>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://github.com/heartin/simple-starter-build-tools/blob/master/LICENSE</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/heartin/simple-starter-build-tools</url>
+		<connection>
+			scm:git:git://github.com/heartin/simple-starter-build-tools.git
+		</connection>
+		<developerConnection>
+			scm:git:ssh://git@github.com/heartin/simple-starter-build-tools.git
+		</developerConnection>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Heartin Kanikathottu</name>
+		</developer>
+	</developers>
 
 </project>
